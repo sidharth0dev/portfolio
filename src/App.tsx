@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence, useScroll, useSpring } from 'framer-motion';
 
 // --- TYPE DEFINITIONS ---
@@ -705,9 +705,9 @@ const ProjectModal = ({ project, setModalData }: { project: Project, setModalDat
       onClick={(e) => e.stopPropagation()}
       className="bg-[#141414] w-full max-w-3xl rounded-2xl shadow-2xl overflow-hidden border border-gray-700"
     >
-        <div className="p-4 border-b border-gray-700 flex justify-between items-center">
-            <h2 className="text-xl font-bold text-white font-sans truncate">{project.title}</h2>
-            <div className="flex items-center gap-2">
+        <div className="p-4 border-b border-gray-700 flex flex-col sm:flex-row justify-between sm:items-center gap-4">
+            <h2 className="text-xl font-bold text-white font-sans w-full sm:w-auto truncate">{project.title}</h2>
+            <div className="flex items-center gap-2 flex-shrink-0">
                 <motion.a whileHover={{ scale: 1.05 }} href={project.githubUrl} target="_blank" className="flex items-center gap-2 text-xs px-3 py-1.5 bg-gray-800 text-white font-semibold rounded-lg hover:bg-gray-700 transition-all duration-300">
                     <GithubIcon size={16} /> Code
                 </motion.a>
