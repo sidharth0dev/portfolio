@@ -38,13 +38,7 @@ const projects: Project[] = [
     title: "AI Powered Personalized Budgeting Assistant - FinanceFlow",
     hook: "A production-grade financial command center that guarantees data integrity using atomic transactions.",
     description: "A full-stack, multi-currency budgeting application built on the Next.js App Router and designed for maximum reliability. The system features **atomic transaction processing** with Prisma ($transaction) to ensure the user's balance and budgets update instantly and accurately, preventing data corruption common in financial tools. Key user value is delivered through real-time spending visualization against customizable limits, a secure multi-currency system, and advanced forecasting of recurring income and expenses.",
-    tech: [
-      "Next.js 15 (App Router)",
-      "Prisma (Atomic Transactions)",
-      "PostgreSQL / Neon DB",
-      "Tailwind CSS / shadcn/ui",
-      "Server Actions"
-    ],
+    tech: ["Next.js 15 (App Router)","Prisma (Atomic Transactions)","PostgreSQL / Neon DB","Tailwind CSS / shadcn/ui","Server Actions"],
     githubUrl: "https://github.com/sidharth0dev/nimble-fin-assist",
     liveUrl: "https://nimble-fin-assist.vercel.app/",
     visual: "https://res.cloudinary.com/dtwzvtmpw/video/upload/v1760975363/financeflow-dashboard-demo_gm6ova.mp4"
