@@ -494,7 +494,7 @@ const HeroSection = () => {
         <motion.a whileHover={{ scale: 1.05, y: -5 }} transition={{ type: 'spring', stiffness: 300 }} href="#projects" className="w-full sm:w-auto px-6 py-3 bg-[#8A2BE2] text-white font-semibold rounded-lg shadow-lg hover:bg-opacity-80 transition-all duration-300 font-sans text-center">View My Work</motion.a>
         <div className="w-full sm:w-auto flex gap-4">
             <motion.a whileHover={{ scale: 1.05, y: -5 }} transition={{ type: 'spring', stiffness: 300 }} href="https://www.linkedin.com/in/sidharth0dev" target="_blank" className="w-full sm:w-auto px-6 py-3 bg-transparent border border-[#E0E0E0] text-[#E0E0E0] font-semibold rounded-lg hover:bg-[#E0E0E0] hover:text-[#0A0A0A] transition-all duration-300 font-sans text-center">Connect on LinkedIn</motion.a>
-            <motion.a whileHover={{ scale: 1.05, y: -5 }} transition={{ type: 'spring', stiffness: 300 }} href="Sidharth-Dev-Resume.pdf" download className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 py-3 bg-[#8A2BE2] text-white font-semibold rounded-lg shadow-lg hover:bg-opacity-80 transition-all duration-300 font-sans">
+            <motion.a whileHover={{ scale: 1.05, y: -5 }} transition={{ type: 'spring', stiffness: 300 }} href="SIDHARTH-DEV-Resume-copy.pdf" download className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 py-3 bg-[#8A2BE2] text-white font-semibold rounded-lg shadow-lg hover:bg-opacity-80 transition-all duration-300 font-sans">
                 <DownloadIcon /> Resume
             </motion.a>
         </div>
