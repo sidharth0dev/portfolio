@@ -255,7 +255,7 @@ const AboutSection = () => (
         </motion.div>
       </motion.div>
       <motion.div initial={{ opacity: 0, x: 50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, type: "spring", stiffness: 80 }} className="md:col-span-3">
-        <p className="text-gray-400 leading-relaxed font-sans text-lg font-medium">I’m an entry-level Software Engineer with hands-on experience in full-stack development, early-stage startup projects, and foundational AI/ML work. I enjoy building simple, functional features while learning modern technologies like Python, React, TensorFlow, SQL, and cloud tools. I’m focused on improving my fundamentals and contributing to real-world projects while growing into a full-stack or AI/ML engineering role.</p>
+        <p className="text-gray-400 leading-relaxed font-sans text-lg font-medium">I’m a Software Engineer with hands-on experience in full-stack development and early-stage startup projects, building API modules, improving database performance, and working with modern tools like Python, React, SQL, TensorFlow, and cloud platforms. I enjoy solving problems, writing clean code, and contributing to product development while advancing toward full-stack or AI/ML engineering roles.</p>
       </motion.div>
     </div>
   </section>
