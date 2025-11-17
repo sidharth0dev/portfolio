@@ -31,7 +31,12 @@ const projects: Project[] = [
 ];
 
 const experiences: Experience[] = [
-  { id: 1, role: "Software Engineer & Co-Founder", company: "Ravewards Technologies, Dubai, UAE", date: "Sept 2024 - Present", points: ["Led a cross-functional team of 3 engineers to build and launch a scalable mobile app, managing Agile sprints and stakeholder communications.","Developed RESTful APIs using Python (Flask/Django) to handle user data and authentication with JWT security.","Optimized PostgreSQL performance, cutting query time by 30% through schema tuning, indexing, and query refactoring.","Set up CI/CD pipelines with Docker and GitHub Actions, automating testing and deployment processes.","Managed GCP infrastructure, enabling auto-scaling, load balancing, and stable app performance."]},
+  { id: 1, role: "Software Engineer (Early-Stage Startup)", company: "Ravewards Technologies, Dubai, UAE", date: "Sept 2024 - Present", points: ["Collaborated with a small cross-functional team of 3 engineers on core app modules, assisting with sprint tasks and team coordination.",
+"Built early RESTful API modules using Python (Flask/Django) to support user data flows and JWT-based authentication testing.",
+"Enhanced PostgreSQL performance by refining schema design, tuning queries, and adding indexes to improve API response times during testing.",
+"Created basic CI/CD workflows using Docker and GitHub Actions to automate tests and reduce manual steps during development.",
+"Handled GCP test environments by configuring VMs, managing resources, and supporting basic scaling checks for ongoing development."
+]},
   { id: 2, role: "AI Internship (Speech Recognition System)", company: "Languify, Remote", date: "June 2023 - July 2023", points: ["Built an Automatic Speech Recognition (ASR) system to convert audio input into text with high accuracy.","Trained and fine-tuned deep learning models using Python, TensorFlow, and speech datasets for better performance.","Pre-processed and cleaned audio data, improving model efficiency and reducing word error rate.","Collaborated with the AI team to integrate the ASR model into the company's language learning platform."]}
 ];
 
@@ -250,7 +255,7 @@ const AboutSection = () => (
         </motion.div>
       </motion.div>
       <motion.div initial={{ opacity: 0, x: 50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, type: "spring", stiffness: 80 }} className="md:col-span-3">
-        <p className="text-gray-400 leading-relaxed font-sans text-lg font-medium">Results-driven Computer Science Engineer with hands-on experience in full-stack development, AI/ML systems, and data analytics. Skilled in Python, React, TensorFlow, SQL, and Google Cloud Platform, with a strong ability to build scalable applications and deploy ML models for real-world impact. Solid foundation in algorithms, databases, and DevOps practices, eager to apply expertise in roles such as Full Stack Developer or AI/ML Engineer to deliver innovative, data-driven solutions.</p>
+        <p className="text-gray-400 leading-relaxed font-sans text-lg font-medium">I’m an entry-level Software Engineer with hands-on experience in full-stack development, early-stage startup projects, and foundational AI/ML work. I enjoy building simple, functional features while learning modern technologies like Python, React, TensorFlow, SQL, and cloud tools. I’m focused on improving my fundamentals and contributing to real-world projects while growing into a full-stack or AI/ML engineering role.</p>
       </motion.div>
     </div>
   </section>
